@@ -1,8 +1,13 @@
 ﻿using SharpAESCrypt;
 
 
-string dir = @"C:/";
-string plain_text_file = dir + "Money.txt";
+string dir = @"C:/Money.txt";
+string cText = "Give me some money.Give me some money.Give me some money." +
+               "Give me some money.Give me some money.Give me some money." +
+               "Give me some money.Give me some money.Give me some money." +
+               "Give me some money.Give me some money.Give me some money." + Environment.NewLine;
+File.WriteAllText(dir, cText);
+string rText = File.ReadAllText(dir);
 string encrypted_file = dir + "encrypted_file.txt";
+SharpAESCrypt.SharpAESCrypt.Encrypt("password", dir, encrypted_file);
 
-SharpAESCrypt.SharpAESCrypt.Encrypt("password",plain_text_file, encrypted_file);
