@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jLBdpFi07M85gVPc7Ga4ilPOu8pSy+sEXUeKdX4mak66m2c0G9k1sVEsr3i6wEuJkyg9D6DHJIEhDVDRPtE+bg==",
+  "success": true,
+  "projectFilePath": "F:\\-\\GiveMeSomeMoney\\GiveMeSomeMoney\\GiveMeSomeMoney.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\sharpaescrypt.dll\\1.3.4\\sharpaescrypt.dll.1.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}
